@@ -6,7 +6,7 @@
       "repo": "https://github.com/malkist01/J6.git",
       "branch": "3.18",
       "device": "J6",
-      "defconfig": "teletubies_defconfig"
+      "defconfig": "j4primelte_defconfig"
   },
     "toolchains": [
       {
