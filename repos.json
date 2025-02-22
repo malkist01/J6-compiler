@@ -10,8 +10,8 @@
   },
     "toolchains": [
       {
-        "repo": "https://bitbucket.org/matthewdalex/aarch64-linux-android-8.x.git",
-        "branch": "master",
+        "repo": "https://staging-git.codelinaro.org/clo/public-release-test/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9.git",
+        "branch": "test",
         "name": "aarch64-linux-android",
         "binPath": ["bin"]
       }
