@@ -10,8 +10,8 @@
   },
     "toolchains": [
       {
-        "repo": "https://github.com/rajatgupta1998/platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9.git",
-        "branch": "gcc-4.9-linaro",
+        "repo": "git clone https://bitbucket.org/matthewdalex/aarch64-linux-android-8.x.git",
+        "branch": "master",
         "name": "clang",
         "binPath": ["bin"]
       }
@@ -19,8 +19,7 @@
     "params": {
      "ARCH": "arm64",
       "externalCommand": {
-        "CROSS_COMPILE": "clang/bin/aarch64-linux-android-",
-        "CROSS_COMPILE_ARM32": "clang/bin/arm-linux-android-",
+        "CROSS_COMPILE": "clang/bin/aarch64-linux-android-8.x-",
       }
     },
     "AnyKernel3": {
