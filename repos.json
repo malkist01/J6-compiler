@@ -18,6 +18,7 @@
     ],
     "params": {
      "ARCH": "arm64",
+    "CC": "clang",
       "externalCommand": {
         "CROSS_COMPILE": "aarch64-linux-android/bin/aarch64-linux-android-",
       }
