@@ -3,9 +3,9 @@
   {
     "kernelSource": {
       "name": "kernel",
-      "repo": "https://github.com/diamondsoul-750G/android_kernel_msm8917_ul.git",
-      "branch": "19.1-AUG24",
-      "device": "J6",
+      "repo": "https://github.com/malkist01/J6.git",
+      "branch": "3.18",
+      "device": "j6primelte",
       "defconfig": "j6primelte_defconfig"
   },
     "toolchains": [
