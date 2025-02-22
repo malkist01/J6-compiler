@@ -12,14 +12,14 @@
       {
         "repo": "https://bitbucket.org/matthewdalex/aarch64-linux-android-8.x.git",
         "branch": "master",
-        "name": "clang",
+        "name": "aarch64-linux-android",
         "binPath": ["bin"]
       }
     ],
     "params": {
      "ARCH": "arm64",
       "externalCommand": {
-        "CROSS_COMPILE": "clang/bin/aarch64-linux-android-8.x-",
+        "CROSS_COMPILE": "aarch64-linux-android/bin/aarch64-linux-android-",
       }
     },
     "AnyKernel3": {
