@@ -10,7 +10,7 @@
   },
     "toolchains": [
       {
-        "repo": "https://github.com/dragonroad99/UBERTC.git",
+        "repo": "https://github.com/dragonroad99/Toolchains.git",
         "branch": "master",
         "name": "clang",
         "binPath": ["bin"]
@@ -21,6 +21,7 @@
      "CC": "clang/bin",
       "externalCommand": {
         "CROSS_COMPILE": "clang/bin/aarch64-linux-android-",
+        "CROSS_COMPILE_ARM32": "clang/bin/arm-linux-android-",
       }
     },
     "AnyKernel3": {
