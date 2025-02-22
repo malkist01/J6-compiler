@@ -3,9 +3,9 @@
   {
     "kernelSource": {
       "name": "kernel",
-      "repo": "https://github.com/malkist01/teletubies.git",
-      "branch": "su",
-      "device": "mido",
+      "repo": "https://github.com/malkist01/J6.git",
+      "branch": "3.18",
+      "device": "J6",
       "defconfig": "teletubies_defconfig"
   },
     "toolchains": [
