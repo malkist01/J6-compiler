@@ -10,8 +10,8 @@
   },
     "toolchains": [
       {
-        "repo": "https://github.com/malkist01/GCC-4.9.git",
-        "branch": "gcc4.9",
+        "repo": "https://github.com/rajatgupta1998/platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9.git",
+        "branch": "gcc-4.9-linaro",
         "name": "clang",
         "binPath": ["bin"]
       }
