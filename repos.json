@@ -10,7 +10,7 @@
   },
     "toolchains": [
       {
-        "repo": "git clone https://bitbucket.org/matthewdalex/aarch64-linux-android-8.x.git",
+        "repo": "https://bitbucket.org/matthewdalex/aarch64-linux-android-8.x.git",
         "branch": "master",
         "name": "clang",
         "binPath": ["bin"]
