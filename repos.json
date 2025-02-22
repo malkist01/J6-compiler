@@ -12,15 +12,15 @@
       {
         "repo": "https://github.com/dragonroad99/UBERTC.git",
         "branch": "master",
-        "name": "aarch64-linux-android",
+        "name": "clang",
         "binPath": ["bin"]
       }
     ],
     "params": {
      "ARCH": "arm64",
-     "CC": "clang",
+     "CC": "clang/bin",
       "externalCommand": {
-        "CROSS_COMPILE": "aarch64-linux-android/bin/aarch64-linux-android-",
+        "CROSS_COMPILE": "clang/bin/aarch64-linux-android-",
       }
     },
     "AnyKernel3": {
