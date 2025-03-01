@@ -10,8 +10,8 @@
   },
     "toolchains": [
       {
-        "repo": "https://github.com/NusantaraDevs/clang.git",
-        "branch": "10.0",
+        "repo": "https://github.com/najahiiii/DragonTC.git",
+        "branch": "9.0",
         "name": "clang",
         "binPath": ["bin"]
       }
