@@ -18,10 +18,10 @@
     ],
     "params": {
      "ARCH": "arm64",
-     "CC": "clang/bin",
+     "CC": "clang/bin/clang",
       "externalCommand": {
-        "CROSS_COMPILE": "clang/bin/aarch64-linux-android-",
-        "CROSS_COMPILE_ARM32": "clang/bin/arm-linux-android-",
+        "CROSS_COMPILE": "clang/bin-",
+        "CROSS_COMPILE_ARM32": "clang/bin-",
       }
     },
     "AnyKernel3": {
