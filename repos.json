@@ -3,8 +3,8 @@
   {
     "kernelSource": {
       "name": "kernel",
-      "repo": "https://github.com/malkist01/J6.git",
-      "branch": "3.18",
+      "repo": "https://github.com/malkist01/test.git",
+      "branch": "EAS",
       "device": "j6primelte",
       "defconfig": "teletubies_defconfig"
   },
