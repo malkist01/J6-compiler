@@ -10,9 +10,8 @@
   },
     "toolchains": [
       {
-        "repo": "https://gitlab.com/Panchajanya1999/azure-clang.git",
-        "repo": "https://gitlab.com/kutemeikito/rastamod69-clang.git",
-        "branch": "clang-20.0",
+        "repo": "https://github.com/Ancient-Project/clang-11.git",
+        "branch": "11.0.0",
         "name": "rastamod69-clang",
         "binPath": ["bin"]
       }
