@@ -3,25 +3,39 @@
   {
     "kernelSource": {
       "name": "kernel",
-      "repo": "https://github.com/malkist01/test.git",
-      "branch": "EAS",
-      "device": "j6primelte",
+      "repo": "https://github.com/malkist01/Android-A15.git",
+      "branch": "main",
+      "device": "mido",
       "defconfig": "teletubies_defconfig"
   },
     "toolchains": [
       {
-        "repo": "https://github.com/najahiiii/DragonTC.git",
-        "branch": "9.0",
-        "name": "clang",
+        "repo": "https://gitlab.com/Panchajanya1999/azure-clang.git",
+        "repo": "https://gitlab.com/kutemeikito/rastamod69-clang.git",
+        "branch": "clang-20.0",
+        "name": "rastamod69-clang",
         "binPath": ["bin"]
       }
     ],
     "params": {
      "ARCH": "arm64",
+      "LLVM": "1",
+      "LLVM_IAS": "1",
+      "CC": "rastamod69-clang/bin/clang",
+      "CXX": "rastamod69-clang/bin/clang++",
       "externalCommand": {
-        "CROSS_COMPILE": "aarch64-linux-android-"
-	      "CROSS_COMPILE_ARM32": "arm-linux-gnueabi-"
-     	  "CLANG_TRIPLE": "aarch64-linux-gnu-"
+        "TRIPLE_CLANG": "rastamod69-clang/bin/aarch64-linux-gnu-",
+        "CROSS_COMPILE": "rastamod69-clang/bin/aarch64-linux-gnu-",
+        "CROSS_COMPILE_ARM32": "rastamod69-clang/bin/arm-linux-gnueabi-",
+        "AR": "rastamod69-clang/bin/llvm-ar",
+        "NM": "rastamod69-clang/bin/llvm-nm",
+        "OBJCOPY": "rastamod69-clang/bin/llvm-objcopy",
+        "OBJDUMP": "rastamod69-clang/bin/llvm-objdump",
+        "READELF": "rastamod69-clang/bin/llvm-readelf",
+        "OBJSIZE": "rastamod69-clang/bin/llvm-size",
+        "STRIP": "rastamod69-clang/bin/llvm-strip",
+        "LLVM_AR": "rastamod69-clang/bin/llvm-ar",
+        "LLVM_DIS": "rastamod69-clang/bin/llvm-dis"
       }
     },
     "AnyKernel3": {
