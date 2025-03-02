@@ -17,7 +17,7 @@
       }
     ],
     "params": {
-     "ARCH": "arm64",
+     "ARCH": "arm",
       "LLVM": "1",
       "LLVM_IAS": "1",
       "CC": "rastamod69-clang/bin/clang",
